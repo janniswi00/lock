@@ -1,0 +1,76 @@
+#background {
+    width: 1000px;
+    height: 700px;
+    background-color: rgb(141, 82, 34);
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+#kleiderschrank-text {
+    font-size: 40px;
+    font-weight: bold;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#task-text {
+    font-size: 30px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+#background2 {
+    width: 800px;
+    height: 400px;
+    background-color: rgb(181, 172, 172);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    border-radius: 5%;
+}
+
+.digits-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.background-digits {
+    width: 100px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#button-div {
+    padding-top: 30px;
+}
+
+#check-code {
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#tries-count {
+    padding-top: 50px;
+    font-size: 20px;
+}
