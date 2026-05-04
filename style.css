@@ -121,7 +121,7 @@
   top: 10em;
   bottom: 0;
   box-sizing: border-box;
-  border: 3.5em solid #ffbb39;
+  border: 3.5em solid #000000;
   border-right-width: 7.5em;
   border-left-width: 7.5em;
   margin: 0 0 6rem 0;
@@ -134,7 +134,7 @@
   content: "";
   box-sizing: border-box;
   position: absolute;
-  border: 2.5em solid #ffbb39;
+  border: 2.5em solid #000000;
   border-bottom: none;
   width: 14em;
   height: 12em;
@@ -145,15 +145,19 @@
   border-top-right-radius: 7em;
   /* Animation */
   transform-origin: 14% 40%;
-  animation: unlock 3s forwards;
+  animation: none;
   animation-direction: forwards;
+}
+
+.lock.open:before {
+    animation: unlock 2s forwards;
 }
 
 .lock:after {
   content: "";
   box-sizing: border-box;
   position: absolute;
-  border: 1em solid #ffbb39;
+  border: 1em solid #000000;
   width: 5em;
   height: 8em;
   border-radius: 2.5em;
@@ -167,9 +171,10 @@
   width: 600px;
   color: #fff;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 30px;
   -webkit-animation: mover 3s forwards;
   animation: None;
+  font-family: cursive;
 }
 
 /* Top section unlock motion */

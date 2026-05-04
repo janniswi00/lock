@@ -61,12 +61,11 @@ function finish_animation() {
     document.getElementById("animation-div").style.visibility = "visible"
     document.getElementById("button-div").style.visibility = "hidden"
     document.getElementById("tries-count").style.visibility = "hidden"
+    document.querySelector(".lock").classList.add("open");
 
     if (tries === 1) {
         document.getElementById("caption").innerHTML += "Du hast " + tries + " Versuch gebraucht."
     } else {
         document.getElementById("caption").innerHTML += "Du hast " + tries + " Versuche gebraucht."
     }
-    
-    console.log("finish")
 }
