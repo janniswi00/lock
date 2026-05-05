@@ -1,7 +1,7 @@
-var dig1_result = 0
-var dig2_result = 0
+var dig1_result = 1
+var dig2_result = 6
 var dig3_result = 0
-var dig4_result = 0
+var dig4_result = 3
 digs_results_list = [dig1_result, dig2_result, dig3_result, dig4_result]
 const min_dig = 0
 const max_dig = 9
