@@ -1,7 +1,3 @@
-body {
-    font-family: cursive;
-}
-
 #background {
     width: min(90%, 1200px);
     height: 100vh;
@@ -165,7 +161,6 @@ body {
   color: #fff;
   text-align: center;
   font-size: 1.4rem;
-  font-family: cursive;
   -webkit-animation: mover 3s forwards;
   animation: None;
   width: 50vw;
